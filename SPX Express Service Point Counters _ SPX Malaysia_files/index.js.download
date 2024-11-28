@@ -1,0 +1,11 @@
+this.USE_API_CACHE = {
+  test: 'ID, MY, PH, TH, VN, SG, TW, BR, MX',
+  staging: 'ID, MY, PH, TH, VN, SG, TW, BR, MX',
+  uat: 'ID',
+  live: 'SG, TH, PH, BR, ID, MY, MX, TW, VN',
+  // Print plugin error reminder
+  TURTLE_VERSION_ERR_NOTICE: {
+    nonlive: 'TW, BR',
+    live: 'ID, MY, PH, TH, VN, SG, TW, BR, MX',
+  }
+};
